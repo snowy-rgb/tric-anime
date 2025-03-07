@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* 대화창 스타일 */
+.dialog-box {
+    width: 600px;
+    height: 150px;
+    background: url('https://acherium.github.io/trickcal-cg-generator/assets/essentials/dialog-box.png') no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.character-name {
+    font-weight: bold;
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* 코드 입력창 */
+.code-box {
+    width: 600px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.run-button {
+    margin-top: 10px;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.run-button:hover {
+    background: darkorange;
+}
