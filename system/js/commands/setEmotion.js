@@ -13,7 +13,7 @@ function setEmotion(emotion) {
 
     // 감정별 이미지 매핑
     let emotions = {
-        "느낌표": "emotion-1-question.svg",
+        "느낌표": "../../../assets/inGameImages/emotions/usedStoree/emotion-0-surprise.svg",
         "놀람": "emotion-0-surprise.svg",
         "생각": "emotion-3-surprise2b.svg",
         "긴장": "emotion-8-sweat.svg",
