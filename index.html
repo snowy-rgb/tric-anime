@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트릭컬 애니메이션 편집기</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- 트릭컬 스타일 대화창 -->
+    <div class="dialog-box">
+        <span class="character-name" id="characterName">버터</span>
+        <p class="message" id="message">나오라고.</p>
+    </div>
+
+    <!-- 코드 입력창 -->
+    <div class="code-box">
+        <textarea id="codeInput">// say("버터", "여기 있어!")</textarea>
+        <button class="run-button" onclick="runCode()">실행</button>
+    </div>
+
+    <script src="system/js/script.js"></script>
+
+</body>
+</html>
