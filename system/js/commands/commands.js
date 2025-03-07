@@ -16,6 +16,7 @@ loadScript("system/js/commands/say.js", function() {
                 window.echo = echo;
                 window.setBG = setBG;
                 window.setEmotion = setEmotion;
+                window.setTheme = setTheme;
             });
         });
     });
