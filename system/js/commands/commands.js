@@ -10,14 +10,16 @@ function loadScript(url, callback) {
 loadScript("system/js/commands/say.js", function() {
     loadScript("system/js/commands/echo.js", function() {
         loadScript("system/js/commands/background.js", function() {
-            loadScript("system/js/commands/character.js", function() {
-                // 모든 명령어가 로드된 후 등록
-                window.say = say;
-                window.echo = echo;
-                window.setBG = setBG;
-                window.setEmotion = setEmotion;
-                window.setTheme = setTheme;
+            loadScript("system/js/commands/setEmotion.js", function() {
+                loadScript("system/js/commands/setTheme.js", function() {
+                    // 모든 명령어가 로드된 후 등록
+                    window.say = say;
+                    window.echo = echo;
+                    window.setBG = setBG;
+                    window.setEmotion = setEmotion;
+                    window.setTheme = setTheme;
+                });
             });
         });
     });
-});
+}):
