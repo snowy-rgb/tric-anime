@@ -22,4 +22,4 @@ loadScript("system/js/commands/say.js", function() {
             });
         });
     });
-}):
+});
