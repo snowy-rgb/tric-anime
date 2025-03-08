@@ -144,3 +144,12 @@ button:hover {
     background-color: #FF7B3D;
 }
 
+/* 대화창 크기 및 위치 조정 */
+#photo-script-box-area-revamped {
+    height: 180px; /* 기존보다 줄이기 */
+    bottom: 5%; /* 아래로 내리기 */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
