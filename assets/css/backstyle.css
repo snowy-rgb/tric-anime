@@ -35,7 +35,7 @@ body {
 
 /* 대화창 스타일 */
 .dialog-box {
-    height: 180px; /* 기존보다 줄이기 */
+    height: 18px; /* 기존보다 줄이기 */
     background-image: url('https://snowy-rgb.github.io/tric-anime/assets/inGameImages/storyBoxes/w-n.svg');
     background-size: contain;
     background-repeat: no-repeat;
