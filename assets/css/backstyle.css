@@ -33,21 +33,26 @@ body {
 }
 
 /* 대화창 스타일 */
+/* 대화창 스타일 */
 .dialog-box {
-    width: 80%;
-    height: 20%;
+    width: 65%;  /* 기존보다 작게 */
+    height: 18%; /* 기존보다 살짝 낮게 */
     background-image: url('https://snowy-rgb.github.io/tric-anime/assets/inGameImages/storyBoxes/w-n.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     text-align: center;
-    position: relative;
+    position: absolute; /* 위치 조정을 위해 absolute 사용 */
+    bottom: 5%; /* 아래쪽으로 배치 */
+    left: 50%; /* 가운데 정렬 */
+    transform: translateX(-50%); /* 가운데 정렬 보정 */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 
 /* 캐릭터 이름 스타일 */
 .character-name {
