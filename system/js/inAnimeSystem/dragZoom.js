@@ -1,6 +1,6 @@
 window.onload = () => {
-    const posLayer = document.getElementById("mainview");
-    const scaleLayer = document.getElementById("mainview");
+    const posLayer = document.getElementById("pos-layer");
+    const scaleLayer = document.getElementById("scale-layer");
 
     if (!posLayer || !scaleLayer) {
         console.error("🚨 'pos-layer' 또는 'scale-layer'가 HTML에서 찾을 수 없음!");
