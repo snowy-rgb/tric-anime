@@ -35,8 +35,7 @@ body {
 
 /* 대화창 스타일 */
 .dialog-box {
-    width: 65%;  /* 기존보다 작게 */
-    height: 18%; /* 기존보다 살짝 낮게 */
+    height: 180px; /* 기존보다 줄이기 */
     background-image: url('https://snowy-rgb.github.io/tric-anime/assets/inGameImages/storyBoxes/w-n.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,12 +143,7 @@ button:hover {
     background-color: #FF7B3D;
 }
 
-/* 대화창 크기 및 위치 조정 */
-#photo-script-box-area-revamped {
-    height: 180px; /* 기존보다 줄이기 */
-    bottom: 5%; /* 아래로 내리기 */
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
+
+
 
