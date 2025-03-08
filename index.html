@@ -6,24 +6,18 @@
     <title>트릭컬 애니메이션 편집기</title>
     <link rel="stylesheet" href="assets/css/backstyle.css">
 </head>
-<body>
+<body id="mainview">
 
     <!-- 트릭컬 스타일 대화창 -->
-    <div class="animation-container" id="mainview">
+    <div class="animation-container">
         <div class="dialog-box">
             <span class="character-name" id="characterName">버터</span>
             <p class="message" id="message">나오라고.</p>
         </div>
     </div>
 
-    <!-- 레이어 -->
-    <div id="pos-layer" style="transform: translate(162px, -122px);">
-        <div id="scale-layer" style="transform: scale(0.6);">
-            <!-- 여기에 애니메이션 요소들 -->
-        </div>
-    </div>
-
-
+</body>
+<body>
     <!-- 코드 입력창 -->
     <div class="script-container">
         <textarea id="codeInput">// say("버터", "여기 있어!")</textarea>
@@ -36,7 +30,6 @@
     <script src="system/js/indexscript.js"></script>
     <!-- 드래그 & 확대/축소 기능 -->
     <script src="system/js/inAnimeSystem/dragZoom.js"></script>
-
 
 </body>
 </html>
