@@ -36,7 +36,7 @@ body {
 /* 대화창 스타일 */
 /* 대화창 스타일 */
 .dialog-box {
-    width: 120%; /* 크기 조정 (기존보다 약간 줄임) */
+    width: 85%; /* 크기 조정 (기존보다 약간 줄임) */
     max-width: 900px; /* 최대 너비 제한 */
     height: 150px; /* 높이 조정 */
     background-image: url('https://snowy-rgb.github.io/tric-anime/assets/inGameImages/storyBoxes/w-n.svg');
