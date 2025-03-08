@@ -11,6 +11,14 @@ body {
     margin: 0;
 }
 
+/* 텍스트 선택 방지 */
+.dialog-box, 
+.dialog-box * {  
+    user-select: none; /* 텍스트 선택 방지 */
+    pointer-events: none; /* 클릭 & 드래그 상호작용 방지 */
+}
+
+
 /* 애니메이션 창 (16:9 비율 유지) */
 .animation-container {
     width: 80vw;
