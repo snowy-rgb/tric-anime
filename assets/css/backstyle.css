@@ -114,6 +114,15 @@ textarea {
     resize: none;
 }
 
+#pos-layer {
+    transform: translate(162px, -122px);
+}
+
+#scale-layer {
+    transform: scale(0.6);
+}
+
+
 /* 실행 버튼 */
 .run-button {
     margin-top: 10px;
