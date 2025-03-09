@@ -120,7 +120,7 @@ textarea {
 }
 
 #pos-layer {
-    transform: translate(162px, -122px);
+    transform-origin: center center; /* 줌(확대/축소)의 기준점을 화면 중앙으로 변경 */
 }
 
 #scale-layer {
