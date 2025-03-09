@@ -123,6 +123,9 @@ textarea {
     transform: translate(162px, -122px);
 }
 
+#scale-layer {
+    transform-origin: center center; /* 줌(확대/축소)의 기준점을 화면 중앙으로 변경 */
+}
 
 
 /* 실행 버튼 */
