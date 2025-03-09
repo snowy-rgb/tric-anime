@@ -1,0 +1,26 @@
+/* 기능 버튼 패널 (아래 위치) */
+.function-panel {
+    width: 100%;
+    background: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+    bottom: 60px;
+}
+
+/* 버튼 스타일 */
+.func-button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.func-button:hover {
+    background: darkorange;
+}
