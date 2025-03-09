@@ -18,18 +18,23 @@ body {
     pointer-events: none; /* 클릭 & 드래그 상호작용 방지 */
 }
 
-
 /* 애니메이션 창 (16:9 비율 유지) */
 .animation-container {
-    width: 80vw;
-    max-width: 1280px;
-    aspect-ratio: 16 / 9;
+    width: 80vw;  /* 전체 화면의 80% */
+    max-width: 1280px;  /* 최대 크기 제한 */
+    aspect-ratio: 16 / 9;  /* 16:9 비율 유지 */
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 1px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+    /* ✅ 중앙 정렬을 위한 스타일 추가 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
