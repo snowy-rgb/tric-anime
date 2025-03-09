@@ -9,8 +9,8 @@ window.onload = () => {
 
     let isDragging = false;
     let startX, startY;
-    let posX = 162, posY = -122; // 초기 위치
-    let scale = 0.6; // 초기 확대 비율
+    let posX = 0, posY = 0; // 초기 위치 162, -122
+    let scale = 1; // 초기 확대 비율
 
     // 💡 마우스 누를 때 → 드래그 시작
     posLayer.addEventListener("mousedown", (event) => {
