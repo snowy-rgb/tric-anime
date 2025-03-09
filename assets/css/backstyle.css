@@ -123,10 +123,6 @@ textarea {
     transform: translate(162px, -122px);
 }
 
-#scale-layer {
-    transform-origin: top left; /* 확대한 중심을 왼쪽 상단으로 고정 */
-}
-
 
 
 /* 실행 버튼 */
