@@ -1,4 +1,4 @@
-ㅍwindow.onload = () => {
+window.onload = () => {
     const posLayer = document.getElementById("pos-layer");
     const scaleLayer = document.getElementById("scale-layer");
 
