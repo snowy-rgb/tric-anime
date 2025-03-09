@@ -9,14 +9,14 @@ window.onload = () => {
 
     let isDragging = false;
     let startX, startY;
-    let scale = 1; // 초기 확대 비율
+    let scale = 0.6; // 초기 확대 비율
     let posX = 0, posY = 0; // 초기 위치
 
-    // 💡 초기 화면 크기 기준으로 중앙 배치
+    // 💡 초기 위치 중앙 배치
     function centerScreen() {
         let bounds = getBounds();
-        posX = (bounds.width - posLayer.offsetWidth) / 2;
-        posY = (bounds.height - posLayer.offsetHeight) / 2;
+        posX = (bounds.width - posLayer.offsetWidth * scale) / 2;
+        posY = (bounds.height - posLayer.offsetHeight * scale) / 2;
         updateTransform();
     }
 
